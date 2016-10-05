@@ -34,8 +34,7 @@ for (var i = 0; i < dogData.length; i++) {
     <h3>${dogFoodLoop.types[1].volumes[0].price}</h3>
     <h3>${dogFoodLoop.types[1].volumes[1].name}</h3>
     <h3>${dogFoodLoop.types[1].volumes[1].price}</h3>
-    </div>
-    `
+    </div>`
   contentEl.innerHTML = displayDiv;
   };
 };
